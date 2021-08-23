@@ -1,0 +1,51 @@
+/* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+       #map {
+        height: 100%;
+      }
+      
+      /* Optional: Makes the sample page fill the window. */
+      html,
+      body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        font-family: 'segoe ui';
+      }
+
+      .header {
+        padding: 20px;
+        text-align: center;
+        background: black;
+        color: white;
+      }
+
+      .footer {
+        padding: 20px;
+        text-align: center;
+        background: black;
+        color: white;
+      }
+
+
+      #title {
+        font-size: 38px;
+        font-weight: 400;
+        color: white;
+        border-bottom: 1px solid white; 
+      }
+
+      #subtitle {
+        font-size: 28px;
+        font-weight: 100;
+      }
+
+      #title:link {
+        text-decoration: none;
+      }
+
+      .api-links {
+        font-weight: 350;
+        color: white;
+        text-decoration: none;
+      }
