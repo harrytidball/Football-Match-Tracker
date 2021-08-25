@@ -1,14 +1,15 @@
 <?php
-//$command = escapeshellcmd('api-football.py');
-//$output = shell_exec($command);
-//echo $output;
+$command = escapeshellcmd('api-football.py');
+$output = shell_exec($command);
+echo $output;
+
 include_once 'config.php';
 
 $lat = file("text-files/lat.txt");
 $lon = file("text-files/lon.txt");
 $scores = file("text-files/scores.txt");
 $venues = file("text-files/venues.txt");
-$competitions = file("text-files/competitions.txt")
+$competitions = file("text-files/competitions.txt");
 ?>
 
 <!DOCTYPE html>
